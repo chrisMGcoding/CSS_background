@@ -43,19 +43,25 @@ h1,h3{
 
 /* début exo 01 background-color */
 .bg-color-1{
+    background-color: red;
 }
 .bg-color-2{
+    background-color: blue;
 }
 /* fin exo 01 background-color */
 
 /* début exo 02 background*/
 .bg-1{
+    background: -webkit-linear-gradient(red, orange, blue);
 }
 .bg-2{
+    background: -webkit-radial-gradient(red,blue);
 }
 .bg-3{
+    background: -webkit-linear-gradient(45deg,red,orange,blue);
 }
 .bg-4{
+    background: -webkit-linear-gradient(right,red 25%,orange 75%);
 }
 /* fin exo 02 background*/
 
