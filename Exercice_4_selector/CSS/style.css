@@ -6,3 +6,27 @@ section:first-child>h4 {
     color: blue;
 }
 /**/
+body section:nth-child(2){
+    border-bottom: 5px solid red;
+}
+/**/
+body section:nth-child(3)>h3, body section:nth-child(3)>ul{
+    color: red;
+}
+/**/
+body section:nth-child(4)>ul>:nth-child(2) {
+    font-size: 25px;
+}
+/**/
+body section:nth-child(5)>h3+span {
+    color: blue;
+}
+/**/
+body section:nth-child(6)>img {
+    border: solid 1px black;
+    border-radius: 20%;
+}
+/**/
+body section:nth-child(7)>p:hover{
+    color: green;
+}
