@@ -1,0 +1,8 @@
+section {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black
+}
+section:first-child>h4 {
+    color: blue;
+}
+/**/
