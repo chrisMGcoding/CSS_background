@@ -3,12 +3,41 @@ body {
 }
 
 /* Exo margin */
+section {
+  background-color: #4da6ff;
+}
+h2 {
+  background-color: yellow;
+  border: solid 2px black;
+  height: 300px;
+}
+body section:first-child>h2:first-of-type {
+  margin: 50px;
+  color: red;
+}
+body section:first-child>h2:nth-child(5){
+  color:red;
+  margin-left: 20%;
+}
+body section:first-child>h2:last-of-type{
+  margin: auto;
+  color:red;
+}
 /* fin exo margin */
 
 /* exo padding */
+body section:nth-child(2)>h2:first-of-type {
+  padding: 50px;
+  color:blue;
+}
+body section:nth-child(2)>h2:last-of-type {
+  padding-left: 20%;
+  color:blue;
+}
 /* fin exo padding */
 
 /* exo display */
+
 /* fin exo display */
 
 /* exo position */
