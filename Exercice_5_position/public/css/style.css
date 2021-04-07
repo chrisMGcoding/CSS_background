@@ -9,7 +9,7 @@ section {
 h2 {
   background-color: yellow;
   border: solid 2px black;
-  height: 300px;
+  width: 300px;
 }
 body section:first-child>h2:first-of-type {
   margin: 50px;
@@ -37,40 +37,40 @@ body section:nth-child(2)>h2:last-of-type {
 /* fin exo padding */
 
 /* exo display */
-body section:nth-child(3)>h2:first-of-type {
+body section:nth-child(3) {
   margin: 20px;
   padding: 40px;
+}
+body section:nth-child(3)>h2 {
   display: inline;
 }
 body section:nth-child(3)>h2:last-of-type {
-  marign: 20px;
-  padding: 40px;
-  display: inline;
+  display: none;
 }
+
 /* fin exo display */
 
 /* exo float */
-body section:nth-child(4)>h2:first-of-type {
-  width: auto;
-  float: right;
-}
-body section:nth-child(4)>h2:last-of-type {
+body section:nth-child(4)>h2 {
   width: auto;
   float: left;
 }
+section:nth-child(4) {
+  overflow: auto;
+}
+
 /* fin exo float */
 
 /* exo position */
-body section:nth-child(5)>h2:first-of-type {
-position: absolute;
+body section:nth-child(5)>h2 {
+position: fixed;
 background-color: green;
 margin: 0;
-top: 0;
+top: 50px;
+left: 50%;
 }
 body section:nth-child(5) {
   position: relative;
-  top: 50px;
-  left: 50%;
 }
 /* fin exo position */
 
