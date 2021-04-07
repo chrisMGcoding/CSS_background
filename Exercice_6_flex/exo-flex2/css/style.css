@@ -1,0 +1,29 @@
+section {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    background-color: sandybrown;
+    height: 115px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.first {
+    flex-grow: 5;
+}
+.secondary {
+    flex-grow: 5;
+}
+.terciary {
+    flex-grow: 5;
+}
+.fourth {
+    flex-grow: 5;
+}
