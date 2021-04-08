@@ -73,8 +73,8 @@ input[type=text] {
 /* début exo 06 les transitions */
 .transition_06 {
     background-color: grey;
-    height: 150px;
-    width: 50px;
+    height: 50px;
+    width: 150px;
     transition: 3s;
 }
 .transition_06:active {
@@ -87,9 +87,9 @@ input[type=text] {
 /* début exo 07 les transitions */
 .transition_07 {
     background-color: green;
-    height: 150px;
-    width: 50px;
-    transition: all 3s ease-in;
+    height: 50px;
+    width: 150px;
+    transition: all 3s ease-in-out;
 }
 .transition_07:active {
     margin: 20%;
@@ -106,7 +106,7 @@ input[type=text] {
     transition: all 3s ease-out;
 }
 .transition_08:active {
-    margin: 20%;
+    margin-left: 80vh;
     height: 50px;
     border-radius: 50%;
     background-color: purple;
