@@ -40,24 +40,25 @@ header>nav {
   display: flex;
 }
 nav>.logo>img {
-  width: 300px;
-  height: 150px;
+  width: 50%;
+  height: auto;
 }
 .menu {
-  width: 100%;
+  display: flex;
+  position: relative;
+
 }
 .menu>ul {
-  width: 100%;
+  width: 1300px;
+  height: none;
   display: flex;
+  list-style-type: none;
+  align-items: center;
   justify-content: space-between;
 }
-.menu>ul>li {
-  display: inline-block;
-  text-align: center;
-}
-.menu>ul::before {
-  /* border: solid 2px black;
-  content: " "; */
+.menu>ul>li>a {
+    text-decoration: none;
+    color: black;
 }
 /* fin 2e partie */
 
@@ -111,27 +112,35 @@ footer>#section {
 }
 footer>#section>div>a {
   text-decoration: none;
+  color: white;
+  font-size: 25px;
 }
-footer>#section>div:first-child>a::before {
-  content: "\2022";
-  color: red;
+/* footer>#section>div:first-child>a::before {
+
 }
-footer>#section>div:first-child>a::before {
+footer>#section>div:nth-child(2)>a::before {
 
 }
 footer>#section>div:last-child>a::before {
   content: "\2022";
   color: purple;
-}
+} */
 footer>#section>div>span {
   display: inline-block;
+  list-style-type: none;
+  color: white;
 }
 footer>p {
   width: 50%;
-  margin-left: 425px;
-  height: 138px;
+  margin-left: 455px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   color: lightgrey;
+}
+
+footer>img {
+  width: 200px;
+  height: auto;
+  margin-left: 825px;
 }
