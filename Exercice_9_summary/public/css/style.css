@@ -1,0 +1,137 @@
+/* NavBar */
+
+/*1e partie*/
+header {
+  position: relative;
+}
+#newsletter{
+  background-color: purple;
+  position: relative;
+  height: 55px;
+}
+#newsletter img{
+  position: absolute;
+  width: 50px;
+  margin-top: 3px;
+}
+#champs_newsletter div{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+button {
+  background-color: green;
+  color: white;
+  height: 28px;
+  border-radius: 5px;
+}
+input {
+  height: 20px;
+  border-radius: 5px;
+  margin: 15px;
+}
+header>#newsletter>#champs_newsletter>div>span {
+  color: white;
+}
+/* fin 1e partie */
+
+/* 2e partie */
+header>nav {
+  display: flex;
+}
+nav>.logo>img {
+  width: 300px;
+  height: 150px;
+}
+.menu {
+  width: 100%;
+}
+.menu>ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu>ul>li {
+  display: inline-block;
+  text-align: center;
+}
+.menu>ul::before {
+  /* border: solid 2px black;
+  content: " "; */
+}
+/* fin 2e partie */
+
+/* Fin NavBar */
+
+
+/* Section */
+#contenu {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey
+}
+h1 {
+  text-align: center;
+}
+h1, h2 {
+  font-size: 40px;
+}
+#contenu>p, #contenu>ul, #contenu>h2 {
+  margin-left: 15%;
+  width: 70%;
+}
+#contenu>ul>li {
+  padding: 6px;
+  display: flex;
+}
+#contenu>ul li::before {
+  content: "\2022";
+  color: purple;
+  display: inline-block;
+  width: 2em;
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+/* Fin section */
+
+/* Footer */
+footer {
+  background-color: grey; 
+  width: auto;
+  height: 250px;
+}
+#section {
+  display: flex;
+  width: 50%;
+  margin-left: 425px;
+}
+footer>#section {
+  justify-content: space-around;
+  padding: 30px;
+}
+footer>#section>div>a {
+  text-decoration: none;
+}
+footer>#section>div:first-child>a::before {
+  content: "\2022";
+  color: red;
+}
+footer>#section>div:first-child>a::before {
+
+}
+footer>#section>div:last-child>a::before {
+  content: "\2022";
+  color: purple;
+}
+footer>#section>div>span {
+  display: inline-block;
+}
+footer>p {
+  width: 50%;
+  margin-left: 425px;
+  height: 138px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: lightgrey;
+}
