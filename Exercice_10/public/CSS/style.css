@@ -1,0 +1,44 @@
+/* header */
+header {
+    display: flex;
+    background-color: black;
+}
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+        .navbar>img {
+            height: 65px;
+            width: 65px;
+            margin: 10px;
+        }
+    .logo {
+        display: flex;
+        margin-top: 15px;
+    }
+        .logo>img {
+            height: 50px;
+            width: 258px;
+        }
+/* fin header */
+
+/* 1e section */
+.first {
+    display: flex;
+    background-color: #2F4C5C;
+}
+    .first_logo {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
+        .first_logo>img {
+            width: 65px;
+            height: 65px;
+        }
+    .first_h1_h2 {
+        width: 75%;
+        color: white;
+    }
+/* fin 1e section */
