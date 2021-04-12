@@ -4,7 +4,7 @@ section {
 }
 /* Exo 1 */
 #exo1>h1::before {
-    content: "";
+    content: " ";
     background-color: orange;
     height: 3px;
     bottom: 0px;

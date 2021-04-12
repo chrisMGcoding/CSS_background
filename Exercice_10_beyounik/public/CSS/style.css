@@ -1,0 +1,164 @@
+/* header */
+header {
+    display: flex;
+    background-color: black;
+}
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+        .navbar>img {
+            height: 65px;
+            width: 65px;
+            margin: 10px;
+        }
+    .logo {
+        display: flex;
+        margin-top: 15px;
+    }
+        .logo>img {
+            height: 50px;
+            width: 258px;
+        }
+/* fin header */
+
+/* 1e section */
+.first {
+    display: flex;
+    background-color: #2F4C5C;
+}
+    .first_logo {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .first_logo>img {
+            width: 130px;
+            height: 130px;
+        }
+    .first_h1_h2 {
+        width: 75%;
+        color: white;
+    }
+/* fin 1e section */
+
+/* 2e section */
+    .h1_second {
+        background-color: #334D5C;
+        color: white;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: block
+    }
+    .second_logo {
+        display: inline;
+    }
+    .second_text {
+        display: block;
+    }
+/* fin 2e section */
+
+/* 3e section */
+.third {
+    display: flex;
+    background-color: #EAE3D6;
+    justify-content: space-evenly;
+    position: relative;
+}
+    .third_image1>img {
+        height: 125px;
+        width: 125px;
+        padding: 20px;
+        /* position: absolute; */
+    }
+        .third_image1>img::before {
+            content: "logo";
+            background-color: red;
+            height: 3px;
+            width: 10px;
+            bottom: 0px;
+        }
+    .third_image2>img {
+        height: 125px;
+        width: 125px;
+        padding: 20px;
+    }
+    .third_image3>img {
+        height: 125px;
+        width: 125px;
+        padding: 20px;
+    }.third_image4>img {
+        height: 125px;
+        width: 125px;
+        padding: 20px;
+    }
+/* fin 3e section */
+
+/* 4e section */
+/* fin 4e section */
+
+/* 5e section */
+.fifth {
+    display: flex;
+    background-color: #EAE3D6;
+    justify-content: space-evenly;
+}
+.fifth_image1>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.fifth_image2>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.fifth_image3>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.fifth_image4>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.fifth_image5>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+/* fin 5e section */
+
+/* 6e section */
+/* fin 6e section */
+
+/* 7e section */
+.seventh {
+    display: flex;
+    background-color: #EAE3D6;
+    justify-content: space-evenly;
+}
+.seventh_image1>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.seventh_image2>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+.seventh_image3>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}.seventh_image4>img {
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+}
+/*fin 7e section */
